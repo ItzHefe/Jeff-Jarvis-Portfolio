@@ -17,12 +17,7 @@ body {
   h1 {
     font-size: 200%;
   }
-  
-  /* Change the margin */
-  h2 {
-    margin: 2% 0;
-    font-size: 150%;
-  }
+
   
   nav ul {
     display: flex;
