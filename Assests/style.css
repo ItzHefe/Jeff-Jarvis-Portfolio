@@ -34,53 +34,33 @@ nav a {
 }
 
 .aboutme {
+  display: flex;
   position: relative;
   flex-wrap: wrap;
   align-items: center;
   box-sizing: content-box;
-
+  height: 50%;
 }
 
-aside {
-  display: flex;
-  flex-direction: column;
-    /* Centers along the main axis determined by flex-direction */
-  justify-content: top;
-    /* Centers along the opposite axis */
-  align-items: right;
-  width: 80%;
-    /* Uses the height of the viewport */
-  height: 100vh;
-  margin: 0 20% 20% 0;
-  background-color: #ffffff;
-  }
-
-.quick {
-  margin-right: 0;
+.aboutme .me {
+  margin-right: 20px;
   padding: 20px;
   clear: both;
   float: left;
   width: 20%;
-}
-
-.me {
-  font-weight: 500;
-  font-size: xx-large;
-  margin-bottom: 75%;
-  text-decoration-line: underline;
-  margin-top: 0%;
-
-}
-
-.work {
+  height: 100%;
+  background-color: #2589bd;
   font-weight: 500;
   font-size: xx-large;
   text-decoration-line: underline;
-  margin-top: 50%;
-
+  margin-top: 0%; 
 }
 
-.img1 img {
+.aboutme p1 {
+  flex: 1
+}
+
+.aboutme img {
   max-width: 900px;
   width: 75%;
   height: 25%;
