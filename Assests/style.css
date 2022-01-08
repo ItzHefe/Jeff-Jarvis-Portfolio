@@ -42,35 +42,22 @@ nav a {
   height: 50%;
 }
 
-.aboutme .me {
-  margin-right: 20px;
-  padding: 20px;
+.aboutme .me{
+  padding: 100px 20px;
   clear: both;
   float: left;
   width: 20%;
   height: 100%;
-  background-color: #2589bd;
   font-weight: 500;
   font-size: xx-large;
   text-decoration-line: underline;
   margin-top: 0%; 
+  border-right: 3px solid black;
 }
 
-.aboutme p1 {
-  flex: 1
-}
-
-.aboutme img {
-  max-width: 900px;
-  width: 75%;
-  height: 25%;
-  background-color: lightblue;
-  /* Margin property */
-  margin: 20px;
-  /* Padding property */
-  padding: 20px;
-  /* Border property */
-  border: 9px solid #13293d;
+.aboutme article {
+  flex: 1;
+  padding: 0 10px;
 }
 
 .app2 {
