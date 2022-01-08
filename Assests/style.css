@@ -60,46 +60,73 @@ nav a {
   padding: 0 10px;
 }
 
-.app2 {
+.aboutme img {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 100%;
+}
+
+.apps .work{
+  padding: 500px 20px;
+  clear: both;
+  display: flex;
+  float: left;
+  width: 20%;
+  height: 100%;
+  font-weight: 500;
+  font-size: xx-large;
+  text-decoration-line: underline;
+  margin-top: 5px; 
+  border-right: 3px solid black;
+}
+
+.apps article {
   position: relative;
+  flex: 1;
   display: inline-block;
+  padding: 0 10px;
   block-size: 25%;
   width: 25%;
   height: 10%;
+  margin-top: 5px;
 }
 
-.wakesurfing img{
+.app2 .card2, .card3{
   position: relative;
   display: inline-block;
-  border-width: 2px;
-  border-color: black;
-  max-width: 450px;
-
-
-}
-
-.app3 img {
-  position: relative;
-  display: inline-block;
+  padding: 0 10px;
   block-size: 25%;
   width: 25%;
   height: 10%;
-  max-width: 450px;
+  flex: 1;
 }
 
+.app4 .card4, .card5 {
+  position: relative;
+  display: inline-block;
+  padding: 0 10px;
+  block-size: 25%;
+  width: 25%;
+  height: 10%;
+  
+}
 
-
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 25%;
+  background-color: #13293d;
+  color: #fff;
+}
 
 
 
 
 @media screen and (max-width: 768px) {
-  header, main {
+  header, main, body, .apps, img {
     flex-direction: column;
-  }
-  
-  section {
-    padding-right: 0;
   }
   
   aside {
