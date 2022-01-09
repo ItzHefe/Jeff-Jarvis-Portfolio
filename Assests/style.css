@@ -40,7 +40,8 @@ nav a {
   flex-wrap: wrap;
   align-items: center;
   box-sizing: content-box;
-  height: 50%;
+  padding-bottom: 15px;
+
 }
 
 .aboutme .me{
@@ -197,12 +198,17 @@ footer {
     display: flex;
     width: 100%;
     flex-direction: column;
+    margin-bottom: 10px;
   }
 
   .info {
     flex-direction: column;
     display: flex;
     width: 55%;
+  }
+
+  .aboutme {
+    padding-bottom: 15px;
   }
 
   .aboutme img {
