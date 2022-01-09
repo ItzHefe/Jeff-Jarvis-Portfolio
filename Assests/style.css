@@ -54,6 +54,15 @@ nav a {
   color: #13293d;
   background-color: #b9c6ae;;
 }
+.minime {
+  display: none;
+  padding: 3%;
+  border-style: solid;
+  background-color: #13293d;
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
 
 .aboutme article {
   flex: 1;
@@ -84,8 +93,6 @@ nav a {
 .apps article {
   position: relative;
   display: inline-block;
-  block-size: 25%;
-  height: 10%;
 }
 
 .card1 {
@@ -95,6 +102,7 @@ nav a {
   background-color: #b9c6ae;
   left: 5px;
   bottom: 10px;
+  size: 100%;
 }
 
 .article .card1 {
@@ -153,6 +161,7 @@ footer {
   padding: 1% 25%;
   background-color: #13293d;
   color: #fff;
+  width: 100%;
 }
 
 
@@ -168,7 +177,7 @@ footer {
     display: none
   }
   
-  apps .work {
+  .apps .work {
     display: none;
   }
 
@@ -176,4 +185,49 @@ footer {
     width: 100%;
     text-align: center;
   }
+  
+  .card1 {
+    width: 75%;
+  }
+
+  .apps img {
+    width: 100%;
+  }
+  .minime {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .info {
+    flex-direction: column;
+    display: flex;
+    width: 55%;
+  }
+
+  .aboutme img {
+    position: absolute;
+    top: -150px;
+    right: 0px;
+    width: 20%;
+  }
+
+  footer {
+    padding: 1% 2%;
+  }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  .card1 {
+    width: 75%;
+  }
+  .aboutme img {
+    position: absolute;
+    top: -70px;
+    right: 10px;
+    width: 15%;
+  }
+
 }
