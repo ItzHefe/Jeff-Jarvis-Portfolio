@@ -68,7 +68,7 @@ nav a {
 }
 
 .apps .work{
-  padding: 510px 20px;
+  padding: 495px 20px;
   clear: both;
   display: flex;
   float: left;
@@ -83,13 +83,41 @@ nav a {
 
 .apps article {
   position: relative;
-  flex: 1;
   display: inline-block;
   padding: 0 10px;
   block-size: 25%;
-  width: 25%;
+  width: 75%;
   height: 10%;
-  margin-top: 5px;
+}
+
+.article .card1 {
+  position: relative;
+  text-align: center;
+  color: white
+}
+
+.card1 .bottom-right {
+  position: absolute;
+  top: 75%;
+  left: 45%;
+  padding: 3%;
+  border-style: solid;
+  background-color: #13293d;
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.apps .bottom-right-small {
+  position: absolute;
+  top: 75%;
+  left: 65%;
+  padding: 3%;
+  border-style: solid;
+  background-color: #13293d;
+  color: white;
+  font-size: large;
+  font-weight: 500;
 }
 
 .app2 .card2, .card3{
