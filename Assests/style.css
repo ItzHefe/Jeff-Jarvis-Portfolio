@@ -68,7 +68,7 @@ nav a {
 }
 
 .apps .work{
-  padding: 495px 20px;
+  padding: 445px 20px;
   clear: both;
   display: flex;
   float: left;
@@ -84,10 +84,17 @@ nav a {
 .apps article {
   position: relative;
   display: inline-block;
-  padding: 0 10px;
   block-size: 25%;
-  width: 75%;
   height: 10%;
+}
+
+.card1 {
+  padding: 5px;
+  color: #13293d;
+  border-style: solid;
+  background-color: #b9c6ae;
+  left: 5px;
+  bottom: 10px;
 }
 
 .article .card1 {
@@ -98,8 +105,8 @@ nav a {
 
 .card1 .bottom-right {
   position: absolute;
-  top: 75%;
-  left: 45%;
+  bottom: 1%;
+  right: 1%;
   padding: 3%;
   border-style: solid;
   background-color: #13293d;
@@ -110,8 +117,8 @@ nav a {
 
 .apps .bottom-right-small {
   position: absolute;
-  top: 75%;
-  left: 65%;
+  bottom: 5%;
+  right: 5%;
   padding: 3%;
   border-style: solid;
   background-color: #13293d;
@@ -125,7 +132,6 @@ nav a {
   display: inline-block;
   padding: 0 10px;
   block-size: 25%;
-  width: 25%;
   height: 10%;
   flex: 1;
 }
@@ -135,7 +141,6 @@ nav a {
   display: inline-block;
   padding: 0 10px;
   block-size: 25%;
-  width: 25%;
   height: 10%;
   
 }
@@ -154,10 +159,19 @@ footer {
 
 
 @media screen and (max-width: 768px) {
-  header, main, body, .apps, img {
+  header, main, body, .apps, img, footer {
     flex-direction: column;
+    justify-content: center;
+    
+  }
+  .me {
+    display: none
   }
   
+  apps .work {
+    display: none;
+  }
+
   aside {
     width: 100%;
     text-align: center;
