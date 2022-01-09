@@ -49,8 +49,7 @@ nav a {
   width: 20%;
   height: 100%;
   font-weight: 700;
-  font-size: xx-large;
-  margin-top: 0%; 
+  font-size: xx-large; 
   border-right: 3px solid #13293d;
   color: #13293d;
   background-color: #b9c6ae;;
@@ -67,7 +66,7 @@ nav a {
 
 .aboutme article {
   flex: 1;
-  padding: 0 10px;
+  padding: 10px 10px;
 }
 
 .aboutme img {
@@ -188,7 +187,7 @@ footer {
   }
   
   .card1 {
-    width: 75%;
+    width: 98%;
   }
 
   .apps img {
@@ -227,7 +226,7 @@ footer {
 
 @media only screen and (max-width: 480px) {
   .card1 {
-    width: 75%;
+    width: 98%;
   }
   .aboutme img {
     position: absolute;
