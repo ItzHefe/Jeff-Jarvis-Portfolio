@@ -2,8 +2,8 @@
 
 ## About this project:
 
-1. In this project I created the skeleton of a portfolio page.
-2. This page will be continually updated to be used as a foundation to show off my work. 
+* In this project I created the skeleton of a portfolio page.
+* This page will be continually updated to be used as a foundation to show off my work. 
 
 ### The Basics:
 
@@ -20,8 +20,14 @@
 
 
 
-#### Working page and Links:
+### Working page and Links:
 
 [Link to Deployed page](https://itzhefe.github.io/Jeff-Jarvis-Portfolio/)
 
-![Alt text](Jeff-Jarvis-Portfolio\Assests\Images\Screen Shot Large.PNG?raw=true "Desktop View")
+Mobile view for my deployed page:
+
+![Screenshot Desktop](./Assets/Images/screen-shot-small.jpg)
+
+Desktop Screen View for my deployed page:
+
+![Screenshot Mobile](./Assets/Images/Screen-Shot-Large.jpg)
