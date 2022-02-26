@@ -103,6 +103,20 @@ nav a {
   size: 100%;
 }
 
+.card2 {
+  padding: 5px;
+  color: #13293d;
+  border-style: solid;
+  background-color: #b9c6ae;
+}
+
+.card3 {
+  padding: 5px;
+  color: #13293d;
+  border-style: solid;
+  background-color: #b9c6ae;
+}
+
 .article .card1 {
   position: relative;
   text-align: center;
@@ -136,19 +150,9 @@ nav a {
 .app2 .card2, .card3{
   position: relative;
   display: inline-block;
-  padding: 0 10px;
   block-size: 25%;
   height: 10%;
   flex: 1;
-}
-
-.app4 .card4, .card5 {
-  position: relative;
-  display: inline-block;
-  padding: 0 10px;
-  block-size: 25%;
-  height: 10%;
-  
 }
 
 footer {
@@ -225,6 +229,14 @@ footer {
 @media only screen and (max-width: 480px) {
   .card1 {
     width: 98%;
+  }
+  .card2 {
+    width: 98%;
+    margin: 5px;
+  }
+  .card3 {
+    width: 98%;
+    Margin: 5px;
   }
   .aboutme img {
     position: absolute;
